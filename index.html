@@ -29,9 +29,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Macth-threeAzaline.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Macth-threeAzaline.data",
-        frameworkUrl: buildUrl + "/Macth-threeAzaline.framework.js",
-        codeUrl: buildUrl + "/Macth-threeAzaline.wasm",
+        dataUrl: buildUrl + "/Macth-threeAzaline.data.gz",
+        frameworkUrl: buildUrl + "/Macth-threeAzaline.framework.js.gz",
+        codeUrl: buildUrl + "/Macth-threeAzaline.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Macth-threeAzaline",
@@ -53,8 +53,8 @@
           mobileWarning.style.display = "none";
         }, 5000);
       } else {
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "1024px";
+        canvas.style.height = "768px";
       }
       loadingBar.style.display = "block";
 
