@@ -45,12 +45,6 @@
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var mobileWarning = document.querySelector("#unity-mobile-warning");
  
-      else {
-        canvas.style.width = "1024px";
-        canvas.style.height = "768px";
-      }
-      loadingBar.style.display = "block";
-
       var script = document.createElement("script");
       script.src = loaderUrl;
       script.onload = () => {
